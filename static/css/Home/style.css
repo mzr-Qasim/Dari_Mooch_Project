@@ -1,6 +1,7 @@
 :root {
     --main-header-color: #e2e3e7;
     --main-font-color: #000000;
+    --black-color: #000000;
     
 }
 
@@ -10,29 +11,17 @@ padding: 0;
 }
 
 
-
-
 header .top-navbar{
     display: flex;
     justify-content: center;
     background-color: var(--main-header-color);
-
-
 
 }
 
 header .top-navbar nav.navbar ul li a{
     font-size: 20px;
     color: var(--main-font-color);
-
-
-
 }
-
-
-
-
-
 
 
 header nav.main-nav-bar{
@@ -44,20 +33,57 @@ header nav.main-nav-bar{
 
 
 
+/* Carousel */
+
+div.carousel-caption {
+    position: absolute;
+    bottom: 1.25rem;
+    right: 100%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption h4{
+    font-size: 60px;
+}
+
+.carousel-caption h2{
+    font-size: 120px;
+}
+
+
+.carousel-anchor-button{
+    display: flex;
+    align-items: center;
+}
+.carousel-anchor-button a{ 
+    text-decoration: none;
+    color: white;
+    background-color: rgba(64,208,198,255) ;
+    border: 10px solid  rgba(64,208,198,255);
+    border-radius: 40px;
+    padding:0 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.carousel-anchor-button a:hover{ 
+    background-color: rgba(7,30,64,255);
+    border: 10px solid  rgba(7,30,64,255);
+}
 
 
 
 
 
+/* Footer Section*/
 
+div.News-letter{
+    background-color: var(--black-color);
+}
 
-
-
-
-
-
-
-
-
-
-
+.News-letter-box{
+    display: flex;
+    justify-content: center;
+}

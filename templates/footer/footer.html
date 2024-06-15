@@ -1,8 +1,38 @@
 {% load static %}
 <footer class="footer">
-    <h1>footer</h1>
+    <div class="news-letter">
+        <div class="container">
+            <div class="News-letter">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 News-letter-heading d-flex justify-content-center">
+                  <h2>Newsletter</h2>        
+                </div><!-- /.col-4 -->
+                <div class="col-2">
+                </div><!-- /.col-2 -->
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 News-letter-box">
+                  <div class="News-letter-entry">
+                    <div class="Input-entry">
+                      <form action="">
+                        <input type="text" name="" class="newsletter-input" id="" placeholder="email@example.com">
+                      </form>
+                    </div><!-- /.Input-entry -->
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 subscribe-button">
+                      <a href="">Subscribe</a>
+                    </div><!-- /.subscribe-button -->
+                  </div><!-- /.News-letter-entry -->
+                </div><!-- /.col-6 -->
+              </div><!-- /.row -->
+            </div><!-- /.News-letter -->
+          </div><!-- /.container -->
+    </div><!-- /.news-letter -->
+    <div class="main-footer">
+
+    </div><!-- /.main-footer -->
 </footer><!-- /.footer -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
 <script src="{% static 'js/app.js' %}"></script>
+<script src="{% static 'js/owl.carousel.min.js' %}"></script>
 </body>
 </html>
