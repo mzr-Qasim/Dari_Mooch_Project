@@ -33,17 +33,20 @@
     </div><!-- /.col-12 -->
   </div><!-- /.row -->
   <div class="ice-blast-card-section" style="background-color: #e2e3e7;">
-    <div class="Ice-blast-products">
+    <div class="Ice-blast-products" style="padding-top: 100px;">
       <div class="container">
+        <div class="Ice-blast-heading" style="text-align: center;">
+          <h3>Ice Blast</h3>
+        </div><!-- /.Ice-blast-heading -->
         <div class="row g-0">
           {% for product in IceBlast %}
           <div class="col-4 g-4 Products">
             <div class="card text-center mb-3" style="border: 0;">
               <img src="{{product.image}}" class="card-img-top" alt="...">
-              <div class="card-body">
+              <div class="card-body" style="background-color:#e2e3e7 ;">
                 <h5 class="card-title">{{product.title}}</h5>
                 <p class="card-text">{{product.price}}</p>
-                <a href="#" class="btn btn-primary">Add to cart</a>
+                <a href="#" class=""style="border: 2px solid black; color:black; text-decoration:none;">Add to cart</a>
               </div>
             </div>
           </div><!-- /.col-4 -->
