@@ -1,5 +1,5 @@
 :root {
-    --main-header-color: #e2e3e7;
+    --main-color: #e2e3e7;
     --main-font-color: #000000;
     --black-color: #000000;
     
@@ -8,6 +8,7 @@
 *{
 margin: 0;
 padding: 0;
+
 }
 
 /**/
@@ -18,8 +19,12 @@ padding: 0;
 
 
 
+header .top-navbar{
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-color);
 
-
+}
 
 header .top-navbar nav.navbar ul li a{
     font-size: 20px;
@@ -36,13 +41,14 @@ header nav.main-nav-bar{
 
 
 
-/* Carousel */
 
-.carousel-indicators {
-    display: none !important;
-    position: none !important;
 
-}
+
+/* ice-blast-card-section */
+
+
+/**/
+
 
 
 
