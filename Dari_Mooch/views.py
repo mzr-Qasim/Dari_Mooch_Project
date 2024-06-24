@@ -1,9 +1,14 @@
 from django.shortcuts import render
+from Dari_Mooch_Products.models import Products
+
 def homePage(request):
-    Ice_Blast_Section_Data= {
-        "IceBlast":[{"id":1,"title":"Ice Blast Bundle","price":1399.00,"description":"K","image":"static/images/1.webp"},{"id":2,"title":"Ice Blast Face Wash","price":799.00,"description":"S","image":"static/images/2.webp"},{"id":3,"title":"Ice Blast Body Wash","price":699.00,"description":"great","image":"static/images/3.webp"}]
+    Products_Data = Products.objects.all()
+    print(Products_Data)
+
+    Data= {
+        "products": Products_Data
     }
-    return render(request, 'index.html', Ice_Blast_Section_Data)
+    return render(request, 'index.html', Data)
 
 
 
