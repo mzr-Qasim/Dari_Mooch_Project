@@ -34,25 +34,54 @@
   </div><!-- /.row -->
   <div class="ice-blast-card-section" style="background-color: #e2e3e7;">
     <div class="Ice-blast-products" style="padding-top: 100px;">
-      <div class="container">
-        <div class="Ice-blast-heading" style="text-align: center;">
-          <h3>Ice Blast</h3>
-        </div><!-- /.Ice-blast-heading -->
-        <div class="row g-0">
+      <div class = "container">
+        <div class = "row my-5">
+            <h1 class = "text-center">Ice Blast</h1>
+        </div>
+        <div class = "row g-4 my-5 mx-auto owl-carousel1 owl-theme">    
           {% for product in products %}
-          <div class="col-4 g-4 Products">
-            <div class="card text-center mb-3" style="border: 0;">
-              <img src="" class="card-img-top" alt="...">
-              <div class="card-body" style="background-color:#e2e3e7 ;">
-                <h5 class="card-title">{{product.title}}</h5>
-                <p class="card-text">{{product.price}}</p>
-                <a href="#" class=""style="border: 2px solid black; color:black; text-decoration:none;">Add to cart</a>
-              </div>
+            <div class = "col product-item mx-auto">
+                <div class = "product-img">
+                    <img src = "" alt = "" class = "img-fluid d-block mx-auto">
+                    <span class = "heart-icon">
+                        <i class = "far fa-heart"></i>
+                    </span>
+                    <div class = "row btns w-100 mx-auto text-center">
+                        <button type = "button" class = "col-6 py-2">
+                            <i class = "fa fa-cart-plus"></i> Add to Cart
+                        </button>
+                        <button type = "button" class = "col-6 py-2">
+                            <i class = "fa fa-binoculars"></i> View
+                        </button>
+                    </div>
+                </div>  
+                <div class = "product-info p-3">
+                    <span class = "product-type"><h4>{{product.title}}</h4></span>
+                    <span class = "product-price"><h5 style="font-weight: 400;">Rs.{{product.price}}</h5></span>
+                    <div class = "rating d-flex mt-1">
+                        <span>
+                            <i class = "fa fa-star"></i>
+                        </span>
+                        <span>
+                            <i class = "fa fa-star"></i>
+                        </span>
+                        <span>
+                            <i class = "fa fa-star"></i>
+                        </span>
+                        <span>
+                            <i class = "fa fa-star"></i>
+                        </span>
+                        <span>
+                            <i class = "fa fa-star"></i>
+                        </span>
+                        <span><!-- /.review --></span>
+                    </div>
+                </div>      
             </div>
-          </div><!-- /.col-4 -->
           {% endfor %}
-        </div><!-- /.row -->
-      </div><!-- /.container -->
+        </div>
+    </div>
+
     </div><!-- /.Ice-blast-products -->
   </div><!-- /.ice-blast-card-section -->
 </main><!-- /.main-content -->

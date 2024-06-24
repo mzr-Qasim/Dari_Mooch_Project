@@ -3,8 +3,6 @@ from Dari_Mooch_Products.models import Products
 
 def homePage(request):
     Products_Data = Products.objects.all()
-    print(Products_Data)
-
     Data= {
         "products": Products_Data
     }
