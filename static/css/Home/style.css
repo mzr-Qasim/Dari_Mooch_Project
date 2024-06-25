@@ -117,7 +117,7 @@ header nav.main-nav-bar{
 }
 .btns button{
     background-color: transparent;
-    border: 2px solid black;
+    border: 1px solid black;
     color: black;
     transition: all 0.3s ease-in-out;
 }
@@ -209,7 +209,7 @@ header nav.main-nav-bar{
 }
 .Summer-Skin-Saviour-Card-Section .btns button{
     background-color: transparent;
-    border: 2px solid black;
+    border: 1px solid black;
     color: black;
     transition: all 0.3s ease-in-out;
 }

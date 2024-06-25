@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Dari_Mooch_Products',
+    'Dari_Mooch_Carousels',
 ]
 
 MIDDLEWARE = [
