@@ -26,17 +26,16 @@ header nav.main-nav-bar{
     background-color: var(--main-header-color);
 }
 
-
-
-
+/* Carousel */
 
 
 
 
 
 /* ice-blast-card-section */
+
 .product-item{
-    border: 1px solid rgb(219, 219, 219);
+    border: none;
 }
 .product-img{
     position: relative;
@@ -51,7 +50,6 @@ header nav.main-nav-bar{
     transition: all 0.3s ease-in-out;
 }
 .btns button{
-    border: none;
     background-color: rgb(39, 39, 39);
     color: #fff;
     transition: all 0.3s ease-in-out;
