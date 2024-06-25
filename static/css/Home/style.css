@@ -11,11 +11,6 @@ padding: 0;
 
 
 
-
-
-
-
-
 header .top-navbar nav.navbar ul li a{
     font-size: 20px;
     color: var(--main-font-color);
@@ -128,8 +123,94 @@ header nav.main-nav-bar{
 
 
 
-/**/
 
+/* Summer-Skin-Saviour-Card-Section */
+
+/* Summer-Skin-Saviour Heading */
+.Summer-Skin-Saviour-Card-Section .Summer-Skin-Saviour-Heading h3{
+    font-family: 'Font Name', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    text-align: center; /* Optional: Align text to center horizontally */
+    padding-bottom: 5px;
+}
+
+.Summer-Skin-Saviour-Card-Section .Summer-Skin-Saviour-Heading h3::after{
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%; /* Position the line at the horizontal center */
+    transform: translateX(-50%);
+    width: 3%; /* Adjust based on how wide you want the line */
+    height: 3px; /* Adjust based on how thick you want the line */
+    background-color: black; /* Adjust based on the color you want */
+
+}
+
+
+/* Summer-Skin-Saviour Carousel Styling */
+.Summer-Skin-Saviour-Card-Section .product-item{
+    border: none;
+}
+.Summer-Skin-Saviour-Card-Section .product-img{
+    position: relative;
+    overflow: hidden;
+}
+.Summer-Skin-Saviour-Card-Section .btns{
+    font-size: 15px;
+    font-weight: 300;
+
+}
+.Summer-Skin-Saviour-Card-Section .btns button{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+.Summer-Skin-Saviour-Card-Section .btns button:hover{
+    color: #FFFFFF;
+    background-color: #000000;
+}
+.Summer-Skin-Saviour-Card-Section .product-img:hover .btns{
+    bottom: 0;
+}
+
+.Summer-Skin-Saviour-Card-Section .Save{
+    position: absolute;
+    width: 30%;
+    top: 16px;
+    right: 15px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    text-align: center;
+
+}
+
+.Summer-Skin-Saviour-Card-Section .product-type{
+    font-size: 13px;
+    opacity: 0.8;
+}
+.Summer-Skin-Saviour-Card-Section .product-name{
+    transition: all 0.3s ease-in-out;
+}
+.Summer-Skin-Saviour-Card-Section .product-name:hover{
+    color: #fcb941!important;
+}
+.Summer-Skin-Saviour-Card-Section .product-price{
+    color: red;
+    font-size: 18px;
+    font-weight: normal;
+}
+.Summer-Skin-Saviour-Card-Section .rating{
+    font-size: 13px;
+}
+.Summer-Skin-Saviour-Card-Section .product-item{
+    width: 300px;
+}
+
+/**/
 
 
 
