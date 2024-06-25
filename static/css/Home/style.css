@@ -42,30 +42,34 @@ header nav.main-nav-bar{
     overflow: hidden;
 }
 .btns{
-    position: absolute;
-    left: 0;
-    bottom: -100%;
     font-size: 15px;
     font-weight: 300;
-    transition: all 0.3s ease-in-out;
+
 }
 .btns button{
-    background-color: rgb(39, 39, 39);
-    color: #fff;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
     transition: all 0.3s ease-in-out;
 }
 .btns button:hover{
-    color: #fcb941;
+    color: #FFFFFF;
+    background-color: #000000;
 }
 .product-img:hover .btns{
     bottom: 0;
 }
 
-.heart-icon{
+.Save{
     position: absolute;
+    width: 30%;
     top: 16px;
     right: 15px;
-    font-size: 18px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    text-align: center;
+
 }
 
 .product-type{
@@ -79,7 +83,9 @@ header nav.main-nav-bar{
     color: #fcb941!important;
 }
 .product-price{
-    color: #fcb941;
+    color: red;
+    font-size: 18px;
+    font-weight: normal;
 }
 .rating{
     font-size: 13px;
