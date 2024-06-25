@@ -26,6 +26,11 @@ header nav.main-nav-bar{
     background-color: var(--main-header-color);
 }
 
+
+/* Main Nav-bar */
+
+
+
 /* Carousel */
 
 
@@ -34,6 +39,30 @@ header nav.main-nav-bar{
 
 /* ice-blast-card-section */
 
+/* ice-blast Heading */
+.Ice-Blast-Heading h3{
+    font-family: 'Font Name', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    text-align: center; /* Optional: Align text to center horizontally */
+    padding-bottom: 5px;
+}
+
+.Ice-Blast-Heading h3::after{
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%; /* Position the line at the horizontal center */
+    transform: translateX(-50%);
+    width: 3%; /* Adjust based on how wide you want the line */
+    height: 3px; /* Adjust based on how thick you want the line */
+    background-color: black; /* Adjust based on the color you want */
+
+}
+
+
+/* ice-blast Carousel Styling */
 .product-item{
     border: none;
 }

@@ -35,14 +35,14 @@
   <div class="ice-blast-card-section" style="background-color: #e2e3e7;">
     <div class="Ice-blast-products" style="padding-top: 100px;">
       <div class = "container">
-        <div class = "row my-5 g-0">
-            <h1 class = "text-center">Ice Blast</h1>
+        <div class = "row my-5 g-0 Ice-Blast-Heading">
+            <h3 class = "text-center">Ice Blast</h3>
         </div>
         <div class = "row g-4 my-5 mx-auto owl-carousel-1 owl-carousel owl-theme">    
           {% for product in products %}
             <div class = "col product-item mx-auto">
                 <div class = "product-img">
-                    <img src = "" alt = "" class = "img-fluid d-block mx-auto">
+                    <img src ="media/{{product.image}}" alt = "" class = "img-fluid d-block mx-auto">
                     <span class = "Save">Save 7%</span>
                     <div class = "row btns w-100 mx-auto text-center">
                         <button type = "button" class = "col-12 py-2">
