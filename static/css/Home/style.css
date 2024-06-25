@@ -29,6 +29,51 @@ header nav.main-nav-bar{
 /* Carousel */
 
 
+/* Owl Carousel Configuration */
+
+/* Owl Carousel Nav Buttons Configuration */
+.owl-nav .owl-next, .owl-nav .owl-prev {
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.owl-nav .owl-next {
+    right: 0;
+    display: flex;
+    margin-right: 2%;
+    font-size: 50px !important;
+}
+.owl-nav .owl-prev{
+    left: 0;
+    display: flex;
+    margin-left: 2%;
+    font-size: 50px !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
