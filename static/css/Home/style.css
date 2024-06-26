@@ -256,6 +256,97 @@ header nav.main-nav-bar{
 }
 
 /**/
+/* World-Cup-Exclusive-Card-Section */
+
+/* World-Cup-Exclusive Heading */
+.World-Cup-Exclusive-Card-Section .World-Cup-Exclusive-Heading h3{
+    font-family: 'Font Name', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    text-align: center; /* Optional: Align text to center horizontally */
+    padding-bottom: 5px;
+}
+
+.World-Cup-Exclusive-Card-Section .World-Cup-Exclusive-Heading h3::after{
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%; /* Position the line at the horizontal center */
+    transform: translateX(-50%);
+    width: 3%; /* Adjust based on how wide you want the line */
+    height: 3px; /* Adjust based on how thick you want the line */
+    background-color: black; /* Adjust based on the color you want */
+
+}
+
+
+/* World-Cup-Exclusive Carousel Styling */
+.World-Cup-Exclusive-Card-Section .product-item{
+    border: none;
+}
+.World-Cup-Exclusive-Card-Section .product-img{
+    position: relative;
+    overflow: hidden;
+}
+.World-Cup-Exclusive-Card-Section .btns{
+    font-size: 15px;
+    font-weight: 300;
+
+}
+.World-Cup-Exclusive-Card-Section .btns button{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+.World-Cup-Exclusive-Card-Section .btns button:hover{
+    color: #FFFFFF;
+    background-color: #000000;
+}
+.World-Cup-Exclusive-Card-Section .product-img:hover .btns{
+    bottom: 0;
+}
+
+.World-Cup-Exclusive-Card-Section .Save{
+    position: absolute;
+    width: 30%;
+    top: 16px;
+    right: 15px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    text-align: center;
+
+}
+
+.World-Cup-Exclusive-Card-Section .product-type{
+    font-size: 13px;
+    opacity: 0.8;
+}
+.World-Cup-Exclusive-Card-Section .product-name{
+    transition: all 0.3s ease-in-out;
+}
+.World-Cup-Exclusive-Card-Section .product-name:hover{
+    color: #fcb941!important;
+}
+.World-Cup-Exclusive-Card-Section .product-price{
+    color: red;
+    font-size: 18px;
+    font-weight: normal;
+}
+.World-Cup-Exclusive-Card-Section .rating{
+    font-size: 13px;
+}
+.World-Cup-Exclusive-Card-Section .product-item{
+    width: 300px;
+}
+
+
+
+/**/
+
+
 
 
 
